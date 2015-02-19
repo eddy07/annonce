@@ -1,0 +1,48 @@
+{
+    "relationships": [
+        {
+            "relationshipId": 1,
+            "otherEntityName": "author",
+            "relationshipType": "many-to-one",
+            "otherEntityNameCapitalized": "Author",
+            "otherEntityField": "pseudo"
+        }
+    ],
+    "fields": [
+        {
+            "fieldId": 1,
+            "fieldName": "subject",
+            "fieldType": "String",
+            "fieldNameCapitalized": "Subject",
+            "fieldNameUnderscored": "subject"
+        },
+        {
+            "fieldId": 2,
+            "fieldName": "description",
+            "fieldType": "String",
+            "fieldNameCapitalized": "Description",
+            "fieldNameUnderscored": "description"
+        },
+        {
+            "fieldId": 3,
+            "fieldName": "publicationDate",
+            "fieldType": "DateTime",
+            "fieldNameCapitalized": "PublicationDate",
+            "fieldNameUnderscored": "publication_date"
+        },
+        {
+            "fieldId": 4,
+            "fieldName": "image",
+            "fieldType": "String",
+            "fieldNameCapitalized": "Image",
+            "fieldNameUnderscored": "image"
+        }
+    ],
+    "fieldsContainOwnerManyToMany": false,
+    "fieldsContainOneToMany": false,
+    "fieldsContainLocalDate": false,
+    "fieldsContainCustomTime": true,
+    "fieldsContainBigDecimal": false,
+    "fieldsContainDateTime": true,
+    "changelogDate": "20150213204645"
+}
